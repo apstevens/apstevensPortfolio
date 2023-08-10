@@ -1,5 +1,4 @@
-# My Portfolio
- 🌐 My Portfolio Website 
+# 🌐 My Portfolio Website
  
  🚀  Welcome to my personal portfolio website repository! This project showcases my skills, projects, and journey as a web developer. Crafted using HTML, CSS, and JS, this portfolio reflects my passion for creating engaging and interactive web experiences.  
  
