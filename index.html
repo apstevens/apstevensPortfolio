@@ -220,16 +220,22 @@
                 <hr class="opacity">
         
                 <div class="section">
-                    <p><i class="fa fa-map-marker fa-xxlarmargin-right"></i> Chicago, US</p>
-                    <p><i class="fa fa-phone fa-xxlarmargin-right"></i> Phone: +00 151515</p>
-                    <p><i class="fa fa-envelope fa-xxlarmargin-right"> </i> Email: mail@mail.com</p>
+                    <p><i class="fa fa-map-marker fa-xxlarmargin-right"></i> Chelmsford, UK</p>
+                    <p><i class="fa fa-phone fa-xxlarmargin-right"></i> Phone: +44 (0)7485041755)</p>
+                    <p><i class="fa fa-envelope fa-xxlarmargin-right"> </i> Email: apstevens79@gmail.com</p>
                 </div>
         
                 <!-- Image of location/map -->
                 <img src="images/map-location.jpg" class="image greyscale" style="width:100%;margin:32px 0">
         
                 <p>Get in touch. Send me a message:</p>
-                <form name="contact-form" action="/action_page.php" target="_blank" method="post" netlify>
+                <form name="contact-form" action="/action_page.php" target="_blank" method="post" 
+                    netlify netlify-honeypot="bot-field">
+                    <p class="hidden">
+                        <label>
+                            Don't fill this out if you're human: <input name="bot-field">
+                        </label>
+                    </p>
                     <p><input class="input padding-border" type="text" placeholder="Name" required name="Name"></p>
                     <p><input class="input padding-border" type="text" placeholder="Email" required name="Email">
                     </p>
