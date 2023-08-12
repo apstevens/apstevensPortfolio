@@ -1619,7 +1619,8 @@ ul li:last-child {
 .light-gray,
 .hover-light-gray:hover {
     color: #fff !important;
-    background-color: #2196F3 !important
+    background-color: #2196F3 !important;
+    border-top-left-radius: 25% !important
 }
 
 .dark-grey,

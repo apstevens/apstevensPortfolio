@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A P Stevens | Web Designer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/35521d7c6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Sidebar with image -->
+    <nav class="sidebar hide-medium hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="sidebar black animate-right xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+        id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="button black xxxlarge display-topright"
+            style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="bar-block center">
+            <a href="#" class="bar-item button text-grey hover-black" onclick="closeNav()">Home</a>
+            <a href="#portfolio" class="bar-item button text-grey hover-black" onclick="closeNav()">Portfolio</a>
+            <a href="#about" class="bar-item button text-grey hover-black" onclick="closeNav()">About</a>
+            <a href="#contact" class="bar-item button text-grey hover-black" onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="main padding-large" style="margin-left:40%">
+
+        <!-- Menu icon to open sidebar -->
+        <span class="button top white xxlarge text-grey hover-text-black" style="width:auto;right:0;"
+            onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="container center" style="padding:128px 16px" id="home">
+            <h1 class="jumbo"><b>A P Stevens</b></h1>
+            <p>Web Designer.</p>
+            <img src="images/wedding-pose.jpg" class="image hide-large hide-small round"
+                style="display:block;width:60%;margin:auto;">
+            <img src="images/wedding-pose.jpg" class="image hide-large hide-medium round" width="1000" height="1333">
+            <button class="button light-blue padding-large margin-top">
+                <a href="resources/apstevens_developer23.docx"><i class="fa fa-download"></i> Download Resume</a>
+            </button>
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="padding-32 content" id="portfolio">
+            <h2 class="text-grey">Thank you!</h2>
+            <h3 class="text-grey">Your enquiry has been received.</h3>
+            <p class="text-grey">I aim to reply within 24 hours, in peak periods it may take up to 48 hours</p>
+            
+
+            <!-- Footer -->
+            <footer class="container padding-64 blue-grey center opacity xlarge" style="margin:-24px">
+                <i class="fa fa-facebook-official hover-opacity"></i>
+                <i class="fa fa-instagram hover-opacity"></i>
+                <i class="fa fa-linkedin hover-opacity"></i>
+                <p class="medium">&copy; 2023 | A P Stevens - Web Designer </p>
+                <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+        </div>
+        <script src="JS/app.js"></script>
+</body>
+
+</html>
