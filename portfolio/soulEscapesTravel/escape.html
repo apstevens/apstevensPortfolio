@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Affordable Dream Vacations | Soul Escapes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35521d7c6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="bar white card" id="navbar">
+            <a href="index.html" class="bar-item button wide">S.E.T - See the World</a>
+            <!-- Right-sided navbar links -->
+            <div class="right hide-small">
+                <a href="index.html" class="bar-item button"><i class="fa-solid fa-house"></i> HOME</a>
+                <a href="book.html" class="bar-item button"><i class="fa-solid fa-envelope"></i> ENQUIRE</a>
+                <a href="#" class="bar-item button"><i class="fa-solid fa-book"></i> GUIDES</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="bar-item button right hide-large hide-medium" onclick="openBar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="sidebar bar-block black card animate-left hide-medium hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeBar()" class="bar-item button large padding-16">Close ×</a>
+        <a href="index.html" class="bar-item button"><i class="fa-solid fa-house"></i> HOME</a>
+        <a href="book.html" class="bar-item button"><i class="fa-solid fa-envelope"></i> ENQUIRE</a>
+        <a href="#" class="bar-item button"><i class="fa-solid fa-book"></i> GUIDES</a>T</a>
+    </nav>
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 display-container grayscale-min" id="home">
+        <img class="page-logo" src="images/soul-escapes-logo.png">
+        <div class="display-left text-orange" style="padding:48px">
+            <span class="jumbo hide-small">Affordable dream vacations with Soul Escapes</span><br>
+            <span class="xxlarge hide-large hide-medium">Affordable dream vacations with Soul Escapes</span><br>
+            <span class="large">Why wait? Start your travel adventures today!</span>
+            <p><a href="#about" class="button padding-large large margin-top opacity hover-opacity-off">Enquire
+                    today</a></p>
+        </div>
+        <div class="display-bottomleft text-grey large" style="padding:24px 48px">
+            <a href="https://www.facebook.com/CCarnera" target="_blank"><i class="fa fa-facebook-official hover-opacity"></i></a>
+            <a href="https://instagram.com/soul_escapes_travel?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                    class="fa fa-instagram hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/cheryl-carnera-94368047" target="_blank"><i
+                    class="fa fa-linkedin hover-opacity"></i></a>
+        </div>
+    </header>
+
+    <!-- Work Section -->
+    <div class="container" style="padding:128px 16px" id="work">
+        <h3 class="center">Page in development</h3>
+        <p class="center large">Coming soon!</p>
+    </div>
+
+    <footer class="center black padding-64">
+        <a href="#home" class="button light-grey"><i class="fa fa-arrow-up margin-right"></i>To the top</a>
+        <div class="xlarge section">
+            <a href="https://www.facebook.com/CCarnera" target="_blank"><i
+                    class="fa fa-facebook-official hover-opacity"></i></a>
+            <a href="https://instagram.com/soul_escapes_travel?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                    class="fa fa-instagram hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/cheryl-carnera-94368047" target="_blank"><i
+                    class="fa fa-linkedin hover-opacity"></i></a>
+        </div>
+        <p>&copy; 2023 Soul Escapes Travel</p>
+    </footer>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

@@ -68,7 +68,8 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:active,
@@ -307,6 +308,7 @@ img {
 a {
     color: inherit
 }
+
 
 .tabletable-all {
     border-collapse: collapse;
@@ -1451,7 +1453,7 @@ ul li:last-child {
 
 .button:hover {
     color: #000 !important;
-    background-color: #ccc !important
+    background-color: #ff9800 !important
 }
 
 .transparent,
